@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SM-N9860</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>OZL</MultiCode>
+    <CustomerDataSet>
+        <CSCName>N9860OZL</CSCName>
+        <CSCVersion>1CUA3</CSCVersion>
+        <NbCustomer>2</NbCustomer>
+        <CustomerData src="/Customer/CHC/customer.xml" />
+        <CustomerData src="/Customer/WWD/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>CHC</CustomerCode>
+            <Version>SAOMC_SM-N9860_OZL_CHC_RR_0009</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>WWD</CustomerCode>
+            <Version>SAOMC_SM-N9860_OZL_CHC_QQ_0003</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>

@@ -1,0 +1,67 @@
+{
+  "update_version": 3,
+  "min_swver": "",
+  "note": "Update for CMCC UP2.4",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "CMCC Internet RCS",
+        "mnoname": "CMCC_CN",
+        "rcs_profile": "UP_2.4",
+        "remote_uri_type": "tel",
+        "useragent": "CPM-client/OMA2.2 RCS-client/UP_2.4 term-Samsung/[PRODUCT_MODEL]-[BUILD_VERSION] client_Samsung/IMS 6.0 OS-Android/[OS_VERSION]",
+        "need_transport_in_contact": true,
+        "network": [
+          {
+            "type": "nr,lte,tdscdma,hspa,gsm",
+            "services": [
+              "slm",
+              "im",
+              "ft",
+              "ft_http",
+              "options",
+              "euc",
+              "gls",
+              "chatbot-communication"
+            ],
+            "enabled": true
+          }
+        ]
+      },
+      {
+        "name": "CMCC WIFI RCS",
+        "mnoname": "CMCC_CN",
+        "rcs_profile": "UP_2.4",
+        "remote_uri_type": "tel",
+        "useragent": "CPM-client/OMA2.2 RCS-client/UP_2.4 term-Samsung/[PRODUCT_MODEL]-[BUILD_VERSION] client_Samsung/IMS 6.0 OS-Android/[OS_VERSION]",
+        "need_transport_in_contact": true,
+        "network": [
+          {
+            "type": "wifi",
+            "services": [
+              "slm",
+              "im",
+              "ft",
+              "ft_http",
+              "options",
+              "euc",
+              "gls",
+              "chatbot-communication"
+            ],
+            "enabled": true
+          }
+        ]
+      }
+    ]
+  },
+  "globalsettings_update": {
+    "globalsetting": [
+      {
+        "mnoname": "CMCC_CN",
+        "bot_rcc07_version": "11.0",
+        "is_server_header_enabled": true,
+        "rcs_default_enabled": 0
+      }
+    ]
+  }
+}

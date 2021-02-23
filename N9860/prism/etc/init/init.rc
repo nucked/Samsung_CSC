@@ -1,0 +1,17 @@
+on fs
+    wait /dev/block/bootdevice/by-name/omr
+    mount ext4 /dev/block/bootdevice/by-name/omr /omr nosuid nodev noatime noauto_da_alloc,discard,journal_checksum,data=ordered,errors=panic
+    chown root system /omr
+    chmod 0771 /omr
+on property:vendor.security.vaultkeeper.native=1
+    start scs
+on property:mdc.singlesku.activated=*
+    oem_key_update
+on post-fs
+    setprop ro.omc.build.version N9860OZL1CUA3
+    setprop ro.omc.build.id 37643764
+    setprop ro.omc.changetype NONE
+    setprop ro.simbased.changetype NONE
+    setprop ro.omc.disabler FALSE
+    chown radio system /efs/imei/countryiso_code.json
+    chmod 0664 /efs/imei/countryiso_code.json

@@ -1,0 +1,486 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<!--
+Copyright (C) 2016 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.sec.android.app.launcher">
+
+    <home>
+        <!-- appwidget : Weather -->
+        <appwidget 
+            screen="0" 
+            packageName="com.sec.android.daemonapp" 
+            className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1" 
+            x="0" 
+            y="2" 
+            spanX="4" 
+            spanY="1" />
+
+        <!-- appwidget : Search -->
+        <appwidget 
+            screen="0" 
+            packageName="com.samsung.android.app.searchwidget" 
+            className="com.samsung.android.app.searchwidget.ui.SearchWidget" 
+            x="0" 
+            y="3" 
+            spanX="4" 
+            spanY="1" />
+
+        <!-- Galaxy Store -->
+        <favorite 
+            screen="0" 
+            packageName="com.sec.android.app.samsungapps" 
+            className="com.sec.android.app.samsungapps.SamsungAppsMainActivity" 
+            x="0" 
+            y="4" />
+
+        <!-- Gallery -->
+        <favorite 
+            screen="0" 
+            packageName="com.sec.android.gallery3d" 
+            className="com.samsung.android.gallery.app.activity.GalleryActivity" 
+            x="1" 
+            y="4" />
+
+        <!-- Galaxy Themes -->
+        <favorite 
+            screen="0" 
+            packageName="com.samsung.android.themestore" 
+            className="com.samsung.android.themestore.activity.Launcher" 
+            x="2" 
+            y="4" />
+
+        <!-- Samsung Assistant -->
+        <favorite 
+            screen="0" 
+            packageName="com.samsung.android.app.sreminder" 
+            className="com.samsung.android.app.sreminder.phone.cardlist.SReminderActivity" 
+            x="3" 
+            y="4" />
+
+        <!-- folder : Samsung -->
+        <folder 
+            screen="1" 
+            title="Samsung" 
+            postPosition="true" 
+            x="0" 
+            y="0">
+            <!-- Samsung Galaxy -->
+            <favorite 
+                screen="0" 
+                className="com.samsung.android.galaxy.MainActivity" 
+                packageName="com.samsung.android.galaxy" />
+            <!-- Samsung Connect -->
+            <favorite 
+                screen="1" 
+                packageName="com.samsung.android.oneconnect" 
+                className="com.samsung.android.oneconnect.ui.SCMainActivity" />
+            <!-- Voice Recorder -->
+            <favorite 
+                screen="2" 
+                packageName="com.sec.android.app.voicenote" 
+                className="com.sec.android.app.voicenote.main.VNMainActivity" />
+            <!-- My Files -->
+            <favorite 
+                screen="3" 
+                packageName="com.sec.android.app.myfiles" 
+                className="com.sec.android.app.myfiles.external.ui.MainActivity" />
+            <!-- Samsung Health -->
+            <favorite 
+                screen="4" 
+                packageName="com.sec.android.app.shealth" 
+                className="com.samsung.android.app.shealth.home.HomeMainActivity" />
+            <!-- Galaxy Wearable -->
+            <favorite 
+                screen="5" 
+                packageName="com.samsung.android.app.watchmanager" 
+                className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity" />
+            <!-- Samsung Members -->
+            <favorite 
+                screen="6" 
+                packageName="com.samsung.android.voc" 
+                className="com.samsung.android.voc.app.LauncherActivity" />
+            <!-- Bixby Voice -->
+            <favorite 
+                screen="7" 
+                packageName="com.samsung.android.bixby.agent" 
+                className="com.samsung.android.bixby.assistanthome.AssistantHomeLauncherActivity" />
+            <!-- AR Zone -->
+            <favorite 
+                screen="8" 
+                packageName="com.samsung.android.arzone" 
+                className="com.samsung.android.arzone.ARZoneLauncher" />
+            <!-- Search -->
+            <favorite 
+                screen="9" 
+                packageName="com.samsung.android.app.searchwidget" 
+                className="com.samsung.android.app.searchwidget.ui.FeedsActivity" />
+        </folder>
+
+        <!-- folder : Microsoft 应用程序 -->
+        <folder 
+            screen="1" 
+            title="Microsoft 应用程序" 
+            postPosition="true" 
+            x="1" 
+            y="0">
+            <!-- Microsoft Office -->
+            <favorite 
+                screen="0" 
+                packageName="com.microsoft.office.officehub" 
+                className="com.microsoft.office.officesuite.OfficeSuiteActivity" />
+            <!-- LinkedIn -->
+            <favorite 
+                screen="1" 
+                packageName="com.linkedin.android" 
+                className="com.linkedin.android.authenticator.LaunchActivity" />
+            <!-- Outlook -->
+            <favorite 
+                screen="2" 
+                packageName="com.microsoft.office.outlook" 
+                className="com.microsoft.office.outlook.MainActivity" />
+        </folder>
+
+        <!-- Samsung Pay -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.spay" 
+            className="com.samsung.android.spay.ui.SpayMainActivity" 
+            x="2" 
+            y="0" />
+
+        <!-- Clock -->
+        <favorite 
+            screen="1" 
+            packageName="com.sec.android.app.clockpackage" 
+            className="com.sec.android.app.clockpackage.ClockPackage" 
+            x="3" 
+            y="0" />
+
+        <!-- Contacts -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.app.contacts" 
+            className="com.samsung.android.contacts.contactslist.PeopleActivity" 
+            x="0" 
+            y="1" />
+
+        <!-- Settings -->
+        <favorite 
+            screen="1" 
+            packageName="com.android.settings" 
+            className="com.android.settings.Settings" 
+            x="1" 
+            y="1" />
+
+        <!-- Calendar -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.calendar" 
+            className="com.samsung.android.app.calendar.activity.MainActivity" 
+            x="2" 
+            y="1" />
+
+        <!-- Calculator -->
+        <favorite 
+            screen="1" 
+            packageName="com.sec.android.app.popupcalculator" 
+            className="com.sec.android.app.popupcalculator.Calculator" 
+            x="3" 
+            y="1" />
+
+        <!-- Samsung Notes -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.app.notes" 
+            className="com.samsung.android.app.notes.memolist.MemoListActivity" 
+            x="0" 
+            y="2" />
+
+        <!-- Samsung Data Store -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.globalroaming" 
+            className="com.samsung.android.globalroaming.activity.StartingActivity" 
+            x="1" 
+            y="2" />
+
+        <!-- Samsung Reader -->
+        <favorite 
+            screen="1" 
+            packageName="com.mci.smagazine" 
+            className="com.chaozh.iReader.ui.activity.WelcomeActivity" 
+            x="2" 
+            y="2" />
+
+        <!-- 三星FM -->
+        <favorite 
+            screen="1" 
+            packageName="fm.qingting.customize.samsung" 
+            className="fm.qingting.customize.samsung.SplashActivity" 
+            x="3" 
+            y="2" />
+
+        <!-- Tips -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.app.tips" 
+            className="com.samsung.android.app.tips.TipsMainActivity" 
+            x="0" 
+            y="3" />
+
+        <!-- Smart Manager -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.sm_cn" 
+            className="com.samsung.android.sm.ui.cstyleboard.SmartManagerDashBoardActivity" 
+            x="1" 
+            y="3" />
+
+        <!-- Game Launcher -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.game.gamehome" 
+            className="com.samsung.android.game.gamehome.activity.StartActivityCN" 
+            x="2" 
+            y="3" />
+
+        <!-- folder : 精选应用 -->
+        <folder 
+            screen="2" 
+            title="精选应用" 
+            postPosition="true" 
+            x="0" 
+            y="0">
+            <!-- Qunar Travel -->
+            <favorite 
+                screen="0" 
+                packageName="com.Qunar" 
+                className="com.mqunar.splash.SplashActivity" />
+            <!-- vip.com -->
+            <favorite 
+                screen="1" 
+                packageName="com.achievo.vipshop" 
+                className="com.achievo.vipshop.activity.LodingActivity" />
+            <!-- Weibo -->
+            <favorite 
+                screen="2" 
+                packageName="com.sina.weibo" 
+                className="com.sina.weibo.SplashActivity" />
+            <!-- Kwai -->
+            <favorite 
+                screen="3" 
+                packageName="com.smile.gifmaker" 
+                className="com.yxcorp.gifshow.HomeActivity" />
+            <!-- 手机淘宝 -->
+            <favorite 
+                screen="4" 
+                packageName="com.taobao.taobao" 
+                className="com.taobao.tao.welcome.Welcome" />
+            <!-- 58同城 -->
+            <favorite 
+                screen="5" 
+                packageName="com.wuba" 
+                className="com.wuba.activity.launch.LaunchActivity" />
+            <!-- Dianping -->
+            <favorite 
+                screen="6" 
+                packageName="com.dianping.v1" 
+                className="com.dianping.userpermission.PermissionActivity" />
+            <!-- 最美天气 -->
+            <favorite 
+                screen="7" 
+                packageName="com.icoolme.android.weather" 
+                className="com.icoolme.android.weather.activity.SmartWeatherActivity" />
+            <!-- Baidu -->
+            <favorite 
+                screen="8" 
+                packageName="com.baidu.searchbox" 
+                className="com.baidu.searchbox.SplashActivity" />
+            <!-- WeChat -->
+            <favorite 
+                screen="9" 
+                packageName="com.tencent.mm" 
+                className="com.tencent.mm.ui.LauncherUI" />
+            <!-- QQMusic -->
+            <favorite 
+                screen="10" 
+                packageName="com.tencent.qqmusic" 
+                className="com.tencent.qqmusic.activity.AppStarterActivity" />
+        </folder>
+
+        <!-- NetEase News -->
+        <favorite 
+            screen="2" 
+            packageName="com.netease.newsreader.activity" 
+            className="com.netease.nr.biz.ad.newAd.AdActivity" 
+            x="1" 
+            y="0" />
+
+        <!-- Ximalaya -->
+        <favorite 
+            screen="2" 
+            packageName="com.ximalaya.ting.android" 
+            className="com.ximalaya.ting.android.host.activity.WelComeActivity" 
+            x="2" 
+            y="0" />
+
+        <!-- 抖音短视频 -->
+        <favorite 
+            screen="2" 
+            packageName="com.ss.android.ugc.aweme" 
+            className="com.ss.android.ugc.aweme.splash.SplashActivity" 
+            x="3" 
+            y="0" />
+
+        <!-- Toutiao -->
+        <favorite 
+            screen="2" 
+            packageName="com.ss.android.article.news" 
+            className="com.ss.android.article.news.activity.MainActivity" 
+            x="0" 
+            y="1" />
+
+        <!-- 携程旅行 -->
+        <favorite 
+            screen="2" 
+            packageName="ctrip.android.view" 
+            className="ctrip.business.splash.CtripSplashActivity" 
+            x="1" 
+            y="1" />
+
+        <!-- 京东 -->
+        <favorite 
+            screen="2" 
+            packageName="com.jingdong.app.mall" 
+            className="com.jingdong.app.mall.main.MainActivity" 
+            x="2" 
+            y="1" />
+
+        <!-- UC Browser -->
+        <favorite 
+            screen="2" 
+            packageName="com.UCMobile" 
+            className="com.UCMobile.main.UCMobile" 
+            x="3" 
+            y="1" />
+
+        <!-- 拼多多 -->
+        <favorite 
+            screen="2" 
+            packageName="com.xunmeng.pinduoduo" 
+            className="com.xunmeng.pinduoduo.ui.activity.MainFrameActivity" 
+            x="0" 
+            y="2" />
+
+        <!-- Amap -->
+        <favorite 
+            screen="2" 
+            packageName="com.autonavi.minimap" 
+            className="com.autonavi.map.activity.SplashActivity" 
+            x="1" 
+            y="2" />
+
+        <!-- 爱奇艺 -->
+        <favorite 
+            screen="2" 
+            packageName="com.qiyi.video" 
+            className="com.qiyi.video.WelcomeActivity" 
+            x="2" 
+            y="2" />
+
+        <!-- Tencent Video -->
+        <favorite 
+            screen="2" 
+            packageName="com.tencent.qqlive" 
+            className="com.tencent.qqlive.ona.activity.SplashHomeActivity" 
+            x="3" 
+            y="2" />
+
+        <!-- folder : CMCC Apps -->
+        <folder 
+            screen="3" 
+            title="CMCC" 
+            postPosition="true" 
+            x="0" 
+            y="0">
+        <!-- Online Business Hall -->
+        <favorite 
+            screen="0" 
+            packageName="com.greenpoint.android.mc10086.activity" 
+            className="com.leadeon.cmcc.base.StartPageActivity" />
+        <!-- Migu Game -->
+        <favorite 
+            screen="1" 
+            packageName="cn.emagsoftware.gamehall" 
+            className="cn.emagsoftware.gamehall.ui.activity.splash.PrivicyActivity" />
+        <!-- 和彩云 -->
+        <favorite 
+            screen="2" 
+            packageName="com.chinamobile.mcloud" 
+            className="com.chinamobile.mcloud.client.ui.logo.LogoActivity" />
+        <!-- 139邮箱 -->
+        <favorite 
+            screen="3" 
+            packageName="cn.cj.pe" 
+            className="com.mail139.about.LaunchActivity" />
+        </folder>
+
+        <!-- Essential Apps -->
+        <favorite 
+            screen="3" 
+            packageName="com.cmic.mmnes" 
+            className="com.cmic.mmnes.activity.SplashActivity" 
+            x="1" 
+            y="0" />
+
+        <!-- 5G Assistant -->
+        <favorite 
+            screen="3" 
+            packageName="com.cmdc.optimal" 
+            className="com.cmdc.optimal.ui.WelcomeActivity" 
+            x="2" 
+            y="0" />
+
+    </home>
+
+    <hotseat>
+        <!-- Phone -->
+        <favorite 
+            screen="0" 
+            packageName="com.samsung.android.dialer" 
+            className="com.samsung.android.dialer.DialtactsActivity" />
+
+        <!-- Messages -->
+        <favorite 
+            screen="1" 
+            packageName="com.samsung.android.messaging" 
+            className="com.android.mms.ui.ConversationComposer" />
+
+        <!-- Samsung Internet -->
+        <favorite 
+            screen="2" 
+            packageName="com.sec.android.app.sbrowser" 
+            className="com.sec.android.app.sbrowser.SBrowserMainActivity" />
+
+        <!-- Camera -->
+        <favorite 
+            screen="3" 
+            packageName="com.sec.android.app.camera" 
+            className="com.sec.android.app.camera.Camera" />
+
+    </hotseat>
+
+</favorites>
