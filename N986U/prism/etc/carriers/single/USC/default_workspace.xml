@@ -1,0 +1,206 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<favorites>
+   
+    <home>
+   
+        <!-- appwidget : Weather -->
+        <appwidget
+            className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1"
+            packageName="com.sec.android.daemonapp"
+            screen="0"
+            spanX="4"
+            spanY="1"
+            x="0"
+            y="2"
+        />
+   
+        <!-- appwidget : Google -->
+        <appwidget
+            className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+            packageName="com.google.android.googlequicksearchbox"
+            screen="0"
+            spanX="4"
+            spanY="1"
+            x="0"
+            y="3"
+        />
+   
+        <!-- Samsung Pay -->
+        <favorite
+            className="com.samsung.android.spay.ui.SpayMainActivity"
+            packageName="com.samsung.android.spay"
+            postPosition="true"
+            screen="0"
+            x="0"
+            y="4"
+        />
+   
+        <!-- Google Play Store -->
+        <favorite
+            className="com.android.vending.AssetBrowserActivity"
+            packageName="com.android.vending"
+            postPosition="true"
+            screen="0"
+            x="1"
+            y="4"
+        />
+   
+        <!-- Google -->
+        <folder
+            screen="0"
+            title="Google"
+            x="2"
+            y="4" >
+   
+            <!-- Google App -->
+            <favorite
+                className="com.google.android.googlequicksearchbox.SearchActivity"
+                packageName="com.google.android.googlequicksearchbox"
+                screen="0"
+            />
+   
+            <!-- Gmail -->
+            <favorite
+                className="com.google.android.gm.ConversationListActivityGmail"
+                packageName="com.google.android.gm"
+                screen="1"
+            />
+   
+            <!-- Maps -->
+            <favorite
+                className="com.google.android.maps.MapsActivity"
+                packageName="com.google.android.apps.maps"
+                screen="2"
+            />
+   
+            <!-- YouTube -->
+            <favorite
+                className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+                packageName="com.google.android.youtube"
+                screen="3"
+            />
+   
+            <!-- Drive -->
+            <favorite
+                className="com.google.android.apps.docs.app.NewMainProxyActivity"
+                packageName="com.google.android.apps.docs"
+                screen="4"
+            />
+   
+            <!-- Youtube Music -->
+            <favorite
+                className="com.google.android.apps.youtube.music.activities.MusicActivity"
+                packageName="com.google.android.apps.youtube.music"
+                screen="5"
+            />
+   
+            <!-- Google Play Movies & TV -->
+            <favorite
+                className="com.google.android.youtube.videos.EntryPoint"
+                packageName="com.google.android.videos"
+                screen="6"
+            />
+   
+            <!-- Duo -->
+            <favorite
+                className="com.google.android.apps.tachyon.MainActivity"
+                packageName="com.google.android.apps.tachyon"
+                screen="7"
+            />
+   
+            <!-- Photos -->
+            <favorite
+                className="com.google.android.apps.photos.home.HomeActivity"
+                packageName="com.google.android.apps.photos"
+                screen="8"
+            />
+   
+        </folder>
+   
+        <!-- Microsoft -->
+        <folder
+            screen="0"
+            title="Microsoft"
+            x="3"
+            y="4" >
+   
+            <!-- Office Mobile -->
+            <favorite
+                className="com.microsoft.office.officesuite.OfficeSuiteActivity"
+                packageName="com.microsoft.office.officehubrow"
+                screen="0"
+            />
+   
+            <!-- OneDrive -->
+            <favorite
+                className="com.microsoft.skydrive.MainActivity"
+                packageName="com.microsoft.skydrive"
+                screen="1"
+            />
+   
+            <!-- Outlook -->
+            <favorite
+                className="com.microsoft.office.outlook.MainActivity"
+                packageName="com.microsoft.office.outlook"
+                screen="2"
+            />
+   
+        </folder>
+   
+        <!-- appwidget : U.S Cellular -->
+        <appwidget
+            className="com.digitalturbine.android.apps.widget_presentation.widget2rows.Widget2RowsProvider"
+            packageName="com.digitalturbine.android.apps.news.uscellular"
+            screen="1"
+            spanX="4"
+            spanY="2"
+            x="0"
+            y="0"
+        />
+   
+        <!-- Call Guardian -->
+        <favorite
+            className="com.cequint.hs.client.frontend.WebShell"
+            packageName="com.uscc.ecid"
+            screen="1"
+            x="0"
+            y="4"
+        />
+   
+    </home>
+   
+    <hotseat>
+   
+        <!-- Phone -->
+        <favorite
+            className="com.samsung.android.dialer.DialtactsActivity"
+            packageName="com.samsung.android.dialer"
+            screen="0"
+        />
+   
+        <!-- Messages -->
+        <favorite
+            className="com.android.mms.ui.ConversationComposer"
+            packageName="com.samsung.android.messaging"
+            screen="1"
+        />
+   
+        <!-- Chrome -->
+        <favorite
+            className="com.google.android.apps.chrome.Main"
+            packageName="com.android.chrome"
+            screen="2"
+        />
+   
+        <!-- Camera -->
+        <favorite
+            className="com.sec.android.app.camera.Camera"
+            packageName="com.sec.android.app.camera"
+            screen="3"
+        />
+   
+    </hotseat>
+   
+</favorites>
+   

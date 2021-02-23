@@ -1,0 +1,27 @@
+{
+  "note": "enable SHAKEN/STIR",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "VZW VoLTE",
+        "mnoname": "VZW_US",
+        "enable_verstat": true
+      },
+      {
+        "name": "VzW E911",
+        "mnoname": "VZW_US",
+        "enable_verstat": true
+      },
+      {
+        "name": "VZW GC VoLTE",
+        "mnoname": "VZW_US:GoogleGC",
+        "enable_verstat": true
+      },
+      {
+        "name": "VzW GC E911",
+        "mnoname": "VZW_US:GoogleGC",
+        "enable_verstat": true
+      }
+    ]
+  }
+}

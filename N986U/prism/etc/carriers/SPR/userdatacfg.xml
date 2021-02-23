@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<singlesku>
+    <appList>
+    	<appInfo>
+             <package>com.sec.android.app.popupcalculator</package>
+        </appInfo>
+<!-- delete for build success
+        <appInfo>
+             <package>com.samsung.android.app.notes</package>
+        </appInfo>
+-->
+        <appInfo>
+             <package>com.samsung.android.app.watchmanager</package>
+      	</appInfo>
+        <appInfo>
+            <package>com.sec.android.easyMover</package>
+        </appInfo>
+        <appInfo>
+            <package>com.samsung.android.spay</package>
+        </appInfo>	
+        <appInfo>
+             <package>com.samsung.android.oneconnect</package>
+        </appInfo>
+        <appInfo>
+             <package>com.google.android.apps.docs</package>
+        </appInfo>
+        <appInfo>
+             <package>com.google.android.apps.tachyon</package>
+        </appInfo>
+        <appInfo>
+             <package>com.google.android.videos</package>
+        </appInfo>
+        <appInfo>
+             <package>com.google.android.apps.youtube.music</package>
+        </appInfo>
+        <appInfo>
+            <package>com.google.android.apps.photos</package>
+        </appInfo>
+        <appInfo>
+            <package>com.sec.android.app.shealth</package>
+        </appInfo>
+        <appInfo>
+             <package>com.spotify.music</package>
+        </appInfo>			
+		<appInfo>
+          <package>com.samsung.android.voc</package>
+        </appInfo>
+        <appInfo>
+            <package>com.microsoft.office.outlook</package>
+        </appInfo>
+        <appInfo>
+            <package>com.microsoft.office.officehubrow</package>
+        </appInfo>
+        <appInfo>
+            <package>com.linkedin.android</package>
+        </appInfo>
+<!-- delete temporarily for build success
+        <appInfo>
+             <package>com.samsung.android.ruler</package>
+        </appInfo>
+-->
+        <appInfo>
+            <package>com.samsung.sree</package>
+        </appInfo>
+        <appInfo>
+            <package>com.sec.penup</package>
+        </appInfo>	
+        <appInfo>
+            <package>com.amazon.mShop.android.shopping</package>
+            <module>AmazonShopping_USA</module>
+        </appInfo>
+   </appList>
+</singlesku>

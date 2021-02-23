@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SM-N986U</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>OYN</MultiCode>
+    <CustomerDataSet>
+        <CSCName>N986UOYN</CSCName>
+        <CSCVersion>1CTLC</CSCVersion>
+        <NbCustomer>11</NbCustomer>
+        <CustomerData src="/Customer/ATT/customer.xml" />
+        <CustomerData src="/Customer/BST/customer.xml" />
+        <CustomerData src="/Customer/CCT/customer.xml" />
+        <CustomerData src="/Customer/CHA/customer.xml" />
+        <CustomerData src="/Customer/GCF/customer.xml" />
+        <CustomerData src="/Customer/SPR/customer.xml" />
+        <CustomerData src="/Customer/TMB/customer.xml" />
+        <CustomerData src="/Customer/USC/customer.xml" />
+        <CustomerData src="/Customer/VZW/customer.xml" />
+        <CustomerData src="/Customer/XAA/customer.xml" />
+        <CustomerData src="/Customer/XAS/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>ATT</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_ATT_RR_0007</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>BST</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_BST_RR_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.boost.care" />
+                <package name="com.amazon.mShop.android.shopping" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>CCT</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_CCT_RR_0004</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.xfinity.cloudtvr" />
+                <package name="com.pocketgeek.android" />
+                <package name="com.xfinitymobile.myaccount" />
+                <package name="com.comcast.cvs.android" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>CHA</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_CHA_RR_0005</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+            <Packages>
+                <package name="com.spectrum.Spec_Mobile" />
+                <package name="com.brighthouse.mybhn" />
+                <package name="com.TWCableTV" />
+                <package name="com.pocketgeek.android" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>GCF</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_GCF_QQ_0004</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SPR</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_SPR_RR_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.sprint.care" />
+                <package name="com.amazon.mShop.android.shopping" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>TMB</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_TMB_RR_0009</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>USC</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_USC_RR_0007</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>VZW</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_VZW_RR_0010</Version>
+            <CustomerEdition>ED0004</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XAA</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_XAA_QQ_0003</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>XAS</CustomerCode>
+            <Version>SAOMC_SM-N986U_OYN_XAS_RR_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.amazon.mShop.android.shopping" />
+            </Packages>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>

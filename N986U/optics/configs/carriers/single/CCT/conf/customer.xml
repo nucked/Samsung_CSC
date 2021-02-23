@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0003</CSCEdition>
+    <Country>USA</Country>
+    <CountryISO>US</CountryISO>
+    <Region>NA</Region>
+    <SalesCode>CCT</SalesCode>
+    <NbNetworkInfo>6</NbNetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>Comcast</NetworkName>
+      <NWID>NW00282</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01450000000000</SubsetCode>
+      <GID2>A300000000000000</GID2>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20404</MCCMNC>
+      <NetworkName>Comcast Roaming</NetworkName>
+      <NWID>NW00283</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01450000000000</SubsetCode>
+      <GID2>A300000000000000</GID2>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>CCT TEST</NetworkName>
+      <NWID>NW00265</NWID>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>311480</MCCMNC>
+      <NetworkName>CCTCDMA</NetworkName>
+      <NWID>NW01843</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01450000000000</SubsetCode>
+      <GID2>A300000000000000</GID2>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>20404</MCCMNC>
+      <NetworkName>CCTCDMA</NetworkName>
+      <NWID>NW01843</NWID>
+      <CodeType>HEX</CodeType>
+      <SubsetCode>BA01450000000000</SubsetCode>
+      <GID2>A300000000000000</GID2>
+    </NetworkInfo>
+    <NetworkInfo>
+      <MCCMNC>00101</MCCMNC>
+      <NetworkName>CCTCDMA</NetworkName>
+      <NWID>NW01843</NWID>
+      <CodeType>HEX</CodeType>
+    </NetworkInfo>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <UnlockCnt>254</UnlockCnt>
+        <OneSIMLock>none</OneSIMLock>
+        <SeparateLock>on</SeparateLock>
+        <NbNetworkLock>5</NbNetworkLock>
+        <NetworkLock>00101</NetworkLock>
+        <NetworkLock>311480</NetworkLock>
+        <NetworkLock>20404</NetworkLock>
+        <NetworkLock>311180</NetworkLock>
+        <NetworkLock>99999</NetworkLock>
+      </Security>
+      <Phone>
+        <DefLanguage>automatic</DefLanguage>
+        <DefLanguageNoSIM>english_us</DefLanguageNoSIM>
+        <ContinuousInput>enable</ContinuousInput>
+        <DateTimeFormat>
+          <DateFormat>mmddyyyy</DateFormat>
+          <TimeFormat>12h</TimeFormat>
+          <TimezoneUpdate>on</TimezoneUpdate>
+        </DateTimeFormat>
+      </Phone>
+    </Main>
+    <Contact>
+      <NbPreInstalledContact>1</NbPreInstalledContact>
+      <PreInstalledContact>
+        <TelName>Xfinity Mobile Care</TelName>
+        <TelNum>1-888-936-4968</TelNum>
+      </PreInstalledContact>
+    </Contact>
+    <Messages>
+      <SMS>
+        <MsgTypeThreshold>
+          <ThresholdValue>7</ThresholdValue>
+        </MsgTypeThreshold>
+        <MaxRecipient>20</MaxRecipient>
+        <CharSupport>automatic</CharSupport>
+        <EmailGateway>6245</EmailGateway>
+      </SMS>
+      <MMS>
+        <MMSVersion>1.2</MMSVersion>
+        <GroupMessaging>on</GroupMessaging>
+        <MmsSending>
+          <ReqDeliveryRep>off</ReqDeliveryRep>
+          <ReqReadRep>off</ReqReadRep>
+          <MessageSize>1.2m</MessageSize>
+          <ImageResizeResolution>qsxga</ImageResizeResolution>
+          <MaxRecipientMMS>20</MaxRecipientMMS>
+        </MmsSending>
+        <NbMMSView>1</NbMMSView>
+        <MMSView>
+          <MessageUserAgent>samn986U</MessageUserAgent>
+          <MessageUaProfUrl>http://uaprof.vtext.com/sam/samn986u/samn986u.xml</MessageUaProfUrl>
+        </MMSView>
+      </MMS>
+    </Messages>
+    <GPS>
+      <GPSActivation>on</GPSActivation>
+    </GPS>
+    <ActiveSync>
+      <SyncSms>off</SyncSms>
+      <Signature>Sent from Samsung Galaxy smartphone.</Signature>
+    </ActiveSync>
+    <Browser>
+      <NbBookmark>3</NbBookmark>
+      <Bookmark>
+        <NetworkName>Comcast</NetworkName>
+        <Editable>yes</Editable>
+        <Index>1</Index>
+        <BookmarkName>Google</BookmarkName>
+        <URL>http://www.google.com/m?client={CID}&amp;source=android-home</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>Comcast</NetworkName>
+        <Editable>yes</Editable>
+        <Index>2</Index>
+        <BookmarkName>Xfinity Mobile</BookmarkName>
+        <URL>http://xfinitymobile.com/account</URL>
+      </Bookmark>
+      <Bookmark>
+        <NetworkName>Comcast</NetworkName>
+        <Editable>yes</Editable>
+        <Index>3</Index>
+        <BookmarkName>Galaxy Shop</BookmarkName>
+        <URL>https://www.samsung.com/us/mobile/phones/all-phones/?cid=us_owned_app_s-internet_none_none_bookmark_bookmark_202008_none</URL>
+      </Bookmark>
+      <eManual>
+        <URL>http://www.samsung.com/m-manual/cct</URL>
+      </eManual>
+    </Browser>
+    <Wifi>
+      <NbHs20Profile>1</NbHs20Profile>
+      <Hs20Profile>
+        <FullyQualifiedDomainName>xfinity.com</FullyQualifiedDomainName>
+        <FriendlyName>Xfinity Mobile</FriendlyName>
+        <Realm>xfinitymobile.com</Realm>
+        <Eap>TTLS</Eap>
+        <UserName>359246069713374</UserName>
+        <Password>Ln6dgNcezfvSsT89NrnsNxcDJXVdo0lH2gLQy4LNYIw=</Password>
+        <InnerMethod>MS-CHAP-V2</InnerMethod>
+      </Hs20Profile>
+    </Wifi>
+    <Connections>
+      <NbProfileHandle>4</NbProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Comcast</NetworkName>
+        <ProfBrowser>Xfinity Mobile</ProfBrowser>
+        <ProfMMS>Xfinity Mobile MMS</ProfMMS>
+        <ProfAGPS>Xfinity Mobile SUPL</ProfAGPS>
+        <ProfIntSharing>Xfinity Mobile DUN</ProfIntSharing>
+        <ProfIMS>Xfinity Mobile IMS</ProfIMS>
+        <ProfFOTA>Xfinity Mobile FOTA</ProfFOTA>
+        <ProfCBS>Xfinity Mobile CBS</ProfCBS>
+        <ProfIA>Xfinity Mobile IMS</ProfIA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>7</NbNetProfile>
+        <NetworkName>Comcast Roaming</NetworkName>
+        <ProfBrowser>Xfinity Mobile Roaming</ProfBrowser>
+        <ProfMMS>Xfinity Mobile MMS</ProfMMS>
+        <ProfAGPS>Xfinity Mobile Roaming SUPL</ProfAGPS>
+        <ProfIntSharing>Xfinity Mobile Roaming DUN</ProfIntSharing>
+        <ProfIMS>Xfinity Mobile Roaming IMS</ProfIMS>
+        <ProfFOTA>Xfinity Mobile Roaming FOTA</ProfFOTA>
+        <ProfCBS>Xfinity Mobile Roaming CBS</ProfCBS>
+        <ProfIA>Xfinity Mobile Roaming IMS</ProfIA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>5</NbNetProfile>
+        <NetworkName>CCT TEST</NetworkName>
+        <ProfBrowser>CCT Test Internet</ProfBrowser>
+        <ProfMMS>CCT Test CBS</ProfMMS>
+        <ProfIntSharing>CCT Test Internet DUN</ProfIntSharing>
+        <ProfIMS>CCT Test IMS</ProfIMS>
+        <ProfFOTA>CCT Test FOTA</ProfFOTA>
+        <ProfCBS>CCT Test CBS</ProfCBS>
+        <ProfIA>CCT Test IMS</ProfIA>
+      </ProfileHandle>
+      <ProfileHandle>
+        <NbNetProfile>1</NbNetProfile>
+        <NetworkName>CCTCDMA</NetworkName>
+        <ProfBrowser>Comcast CDMA</ProfBrowser>
+        <ProfMMS>Comcast CDMA</ProfMMS>
+        <ProfAGPS>Comcast CDMA</ProfAGPS>
+        <ProfIntSharing>Comcast CDMA</ProfIntSharing>
+        <ProfFOTA>Comcast CDMA</ProfFOTA>
+        <ProfCBS>Comcast CDMA</ProfCBS>
+      </ProfileHandle>
+      <NbProfile>19</NbProfile>
+      <Profile>
+        <NetworkName>Comcast</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile</ProfileName>
+        <URL>http://www.google.com</URL>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>0</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile DUN</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>0</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile SUPL</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>0</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile FOTA</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>3</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile IMS</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>2</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>5</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile MMS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>5</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile Roaming</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>0</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile Roaming DUN</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>0</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile Roaming SUPL</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>0</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile Roaming FOTA</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>3</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile Roaming IMS</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>2</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>Comcast Roaming</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Xfinity Mobile Roaming CBS</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>5</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CCT TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CCT Test Internet</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>0</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CCT TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CCT Test Internet DUN</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>0</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWINTERNET</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CCT TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CCT Test FOTA</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>3</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWADMIN</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CCT TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv6</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CCT Test IMS</ProfileName>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>2</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>IMS</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CCT TEST</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>yes</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>CCT Test CBS</ProfileName>
+        <URL>http://mms.vtext.com/servlets/mms</URL>
+        <Bearer>2g,3g,ehrpd,lte,iwlan</Bearer>
+        <ModemCognitive>true</ModemCognitive>
+        <ProfileId>5</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>VZWAPP</APN>
+        </PSparam>
+      </Profile>
+      <Profile>
+        <NetworkName>CCTCDMA</NetworkName>
+        <IpVersion>ipv4v6</IpVersion>
+        <RoamingIpVersion>ipv4</RoamingIpVersion>
+        <Editable>no</Editable>
+        <EnableStatus>enable</EnableStatus>
+        <ProfileName>Comcast CDMA</ProfileName>
+        <URL>http://mms.vzwreseller.com/servlets/mms</URL>
+        <Bearer>cs</Bearer>
+        <ModemCognitive>false</ModemCognitive>
+        <ProfileId>0</ProfileId>
+        <Skip464XLAT>enable</Skip464XLAT>
+        <PSparam>
+          <APN>cdma</APN>
+        </PSparam>
+      </Profile>
+    </Connections>
+  </Settings>
+</CustomerData>

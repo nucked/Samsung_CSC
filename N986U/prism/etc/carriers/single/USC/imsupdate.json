@@ -1,0 +1,19 @@
+{
+  "note": "update voice_domain_pref_eutran for USCC",
+  "globalsettings_update": {
+    "globalsetting": [
+      {
+        "mnoname": "USCC_US",
+        "voice_domain_pref_eutran" : "3"
+      }
+    ]
+  },
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "USCC_US",
+        "enableServiceVowifi": true
+      }
+    ]
+  }
+}

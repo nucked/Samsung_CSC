@@ -1,0 +1,67 @@
+{
+  "update_version": 3,
+  "min_swver": "",
+  "note": "Delete services to enable TMO RCS Phase2 as default",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "TMobile LTE/WiFi",
+        "mnoname": "TMobile_US",
+        "evs_bandwidth_send": "nb-swb",
+        "evs_bandwidth_receive": "nb-swb",
+        "evs_default_bandwidth": "nb-swb"
+      },
+      {
+        "name": "TMobile E911",
+        "mnoname": "TMobile_US",
+        "evs_bandwidth_send": "nb-swb",
+        "evs_bandwidth_receive": "nb-swb",
+        "evs_default_bandwidth": "nb-swb"
+      },
+      {
+        "name": "T-Mobile LTE/WiFi Lab",
+        "mnoname": "TMobile_US:LAB",
+        "evs_bandwidth_send": "nb-swb",
+        "evs_bandwidth_receive": "nb-swb",
+        "evs_default_bandwidth": "nb-swb"
+      },
+      {
+        "name": "T-Mobile E911 Lab",
+        "mnoname": "TMobile_US:LAB",
+        "evs_bandwidth_send": "nb-swb",
+        "evs_bandwidth_receive": "nb-swb",
+        "evs_default_bandwidth": "nb-swb"
+      },
+      {
+        "name": "TFT VoLTE",
+        "mnoname": "TMobile_US:TFN",
+        "evs_bandwidth_send": "nb-swb",
+        "evs_bandwidth_receive": "nb-swb",
+        "evs_default_bandwidth": "nb-swb"
+      },
+	  {
+        "name": "TFT E911",
+        "mnoname": "TMobile_US:TFN",
+        "evs_bandwidth_send": "nb-swb",
+        "evs_bandwidth_receive": "nb-swb",
+        "evs_default_bandwidth": "nb-swb"
+      }
+    ],
+    "remove_profile": [
+    ]
+  },
+  "globalsettings_update": {
+    "defaultsetting": {
+    },
+    "nohitsetting": {
+    },
+    "globalsetting": [
+    ]
+  },
+  "mnomap_update": {
+      "remove_mnomap": [
+      ],
+      "add_mnomap": [
+      ]
+  }
+}

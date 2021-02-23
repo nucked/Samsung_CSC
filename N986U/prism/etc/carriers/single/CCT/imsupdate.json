@@ -1,0 +1,19 @@
+{
+  "update_version": 1,
+  "min_swver": "",
+  "note": "enalbe STIR/SHAKEN",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "Comcast VoLTE",
+        "mnoname": "VZW_US:CCT",
+        "enable_verstat": true
+      },
+      {
+        "name": "Comcast E911",
+        "mnoname": "VZW_US:CCT",
+        "enable_verstat": true
+      }
+    ]
+  }
+}

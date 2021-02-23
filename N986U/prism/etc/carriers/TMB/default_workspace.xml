@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<favorites>
+   
+    <home>
+   
+        <!-- appwidget : Weather -->
+        <appwidget
+            className="com.sec.android.daemonapp.appwidget.WeatherAppWidget2x1"
+            packageName="com.sec.android.daemonapp"
+            screen="0"
+            spanX="4"
+            spanY="1"
+            x="0"
+            y="2"
+        />
+   
+        <!-- appwidget : Google App -->
+        <appwidget
+            className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
+            packageName="com.google.android.googlequicksearchbox"
+            screen="0"
+            spanX="4"
+            spanY="1"
+            x="0"
+            y="3"
+        />
+
+        <!-- Galaxy Store -->
+        <favorite 
+            screen="0" 
+            packageName="com.sec.android.app.samsungapps" 
+            className="com.sec.android.app.samsungapps.SamsungAppsMainActivity"
+            x="0" 
+            y="4"/>
+			
+        <!-- Google Play Store -->
+        <favorite 
+            screen="0" 
+            packageName="com.android.vending" 
+            className="com.android.vending.AssetBrowserActivity"
+            x="1" 
+            y="4"/>
+   
+        <!-- Google -->
+        <folder
+            screen="0"
+            title="Google"
+            x="2"
+            y="4" >
+   
+            <!-- Google App -->
+            <favorite
+                className="com.google.android.googlequicksearchbox.SearchActivity"
+                packageName="com.google.android.googlequicksearchbox"
+                screen="0"
+            />
+   
+            <!-- Gmail -->
+            <favorite
+                className="com.google.android.gm.ConversationListActivityGmail"
+                packageName="com.google.android.gm"
+                screen="1"
+            />
+   
+            <!-- Maps -->
+            <favorite
+                className="com.google.android.maps.MapsActivity"
+                packageName="com.google.android.apps.maps"
+                screen="2"
+            />
+   
+            <!-- YouTube -->
+            <favorite
+                className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+                packageName="com.google.android.youtube"
+                screen="3"
+            />
+   
+            <!-- Drive -->
+            <favorite
+                className="com.google.android.apps.docs.app.NewMainProxyActivity"
+                packageName="com.google.android.apps.docs"
+                screen="4"
+            />
+   
+            <!-- YouTube Music -->
+            <favorite
+                className="com.google.android.apps.youtube.music.activities.MusicActivity"
+                packageName="com.google.android.apps.youtube.music"
+                screen="5"
+            />
+   
+            <!-- Google Play Movies & TV -->
+            <favorite
+                className="com.google.android.youtube.videos.EntryPoint"
+                packageName="com.google.android.videos"
+                screen="6"
+            />
+   
+            <!-- Duo -->
+            <favorite
+                className="com.google.android.apps.tachyon.MainActivity"
+                packageName="com.google.android.apps.tachyon"
+                screen="7"
+            />
+   
+            <!-- Photos -->
+            <favorite
+                className="com.google.android.apps.photos.home.HomeActivity"
+                packageName="com.google.android.apps.photos"
+                screen="8"
+            />
+   
+            <!-- Android Pay -->
+            <favorite
+                className="com.google.commerce.tapandpay.android.cardlist.CardListActivity"
+                packageName="com.google.android.apps.walletnfcrel"
+                screen="9"
+            />
+   
+        </folder>
+   
+        <!-- Microsoft -->
+        <folder
+            screen="0"
+            title="Microsoft"
+            x="3"
+            y="4" >
+   
+            <!-- Linked In -->
+            <favorite
+                className="com.linkedin.android.authenticator.LaunchActivity"
+                packageName="com.linkedin.android"
+                screen="0"
+            />
+   
+            <!-- Office Mobile -->
+            <favorite
+                className="com.microsoft.office.officesuite.OfficeSuiteActivity"
+                packageName="com.microsoft.office.officehubrow"
+                screen="1"
+            />
+   
+            <!-- OneDrive -->
+            <favorite
+                className="com.microsoft.skydrive.MainActivity"
+                packageName="com.microsoft.skydrive"
+                screen="2"
+            />
+   
+            <!-- Outlook -->
+            <favorite
+                className="com.microsoft.office.outlook.MainActivity"
+                packageName="com.microsoft.office.outlook"
+                screen="3"
+            />
+   
+        </folder>
+   
+        <!-- T-Mobile -->
+        <favorite
+            className="com.tmobile.pr.mytmobile.MyTMobileActivity"
+            packageName="com.tmobile.pr.mytmobile"
+            screen="1"
+            x="0"
+            y="4"
+        />
+   
+        <!-- T-Mobile -->
+        <folder
+            screen="1"
+            title="T-Mobile"
+            x="1"
+            y="4" >
+   
+            <!-- T-Mobile Name ID -->
+            <favorite
+                className="com.tmobile.services.nameid.Startup.IdentifyingNumbersActivity"
+                packageName="com.tmobile.services.nameid"
+                screen="0"
+            />
+   
+            <!-- T-Mobile Play -->
+            <favorite
+                className="com.metro.minus1.ui.main.MainActivity"
+                packageName="com.tmobile.m1"
+                screen="1"
+            />
+   
+            <!-- Visual Voicemail -->
+            <favorite
+                className="com.tmobile.vvm.application.activity.setup.WelcomeActivity"
+                packageName="com.tmobile.vvm.application"
+                screen="2"
+            />
+   
+        </folder>
+   
+        <!-- Facebook -->
+        <favorite
+            className="com.facebook.katana.LoginActivity"
+            packageName="com.facebook.katana"
+            screen="1"
+            x="2"
+            y="4"
+        />
+   
+        <!-- Amazon Shopping -->
+        <favorite
+            className="com.amazon.mShop.home.HomeActivity"
+            packageName="com.amazon.mShop.android.shopping"
+            screen="1"
+            x="3"
+            y="4"
+        />
+   
+    </home>
+   
+    <hotseat>
+   
+        <!-- Phone -->
+        <favorite
+            className="com.samsung.android.dialer.DialtactsActivity"
+            packageName="com.samsung.android.dialer"
+            screen="0"
+        />
+   
+        <!-- Messages -->
+        <favorite
+            className="com.android.mms.ui.ConversationComposer"
+            packageName="com.samsung.android.messaging"
+            screen="1"
+        />
+   
+        <!-- Chrome -->
+        <favorite
+            className="com.google.android.apps.chrome.Main"
+            packageName="com.android.chrome"
+            screen="2"
+        />
+   
+        <!-- Camera -->
+        <favorite
+            className="com.sec.android.app.camera.Camera"
+            packageName="com.sec.android.app.camera"
+            screen="3"
+        />
+   
+    </hotseat>
+   
+</favorites>
+   

@@ -1,0 +1,1 @@
+{  "note": "Enable RCS MVS Auth",  "imsswitch_update": {    "imsswitch": [      {        "mnoname": "VZW_US",        "enableServiceRcschat": true      }    ]  },  "globalsettings_update": {    "globalsetting": [      {        "mnoname": "VZW_US",        "rcs_support_mvs_auth": true      }    ]  }}
