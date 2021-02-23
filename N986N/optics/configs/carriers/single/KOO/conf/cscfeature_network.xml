@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamsungMobileFeature>
+  <NetworkVersion>ED00007</NetworkVersion>
+  <NetworkCountry>KOREA, REPUBLIC OF</NetworkCountry>
+  <NetworkCountryISO>KR</NetworkCountryISO>
+  <NetworkCode>KOO</NetworkCode>
+  <FeatureSet>
+    <CscFeature_GPS_ConfigAgnssProtocol>14</CscFeature_GPS_ConfigAgnssProtocol>
+    <CscFeature_GPS_ConfigAgpsMode>15</CscFeature_GPS_ConfigAgpsMode>
+    <CscFeature_GPS_ConfigAgpsSetting>KOO</CscFeature_GPS_ConfigAgpsSetting>
+    <CscFeature_GPS_ConfigExceptionMaskForAGNSS>7</CscFeature_GPS_ConfigExceptionMaskForAGNSS>
+    <CscFeature_GPS_ConfigLppProfile>3</CscFeature_GPS_ConfigLppProfile>
+    <CscFeature_Message_DisableMenuCBMessage>TRUE</CscFeature_Message_DisableMenuCBMessage>
+    <CscFeature_Message_DisableMenuRequestMmsDeliveryReport>TRUE</CscFeature_Message_DisableMenuRequestMmsDeliveryReport>
+    <CscFeature_Message_DisableMenuRequestMmsReadReport>TRUE</CscFeature_Message_DisableMenuRequestMmsReadReport>
+    <CscFeature_Message_DisableMenuSmsDeliveryReports>TRUE</CscFeature_Message_DisableMenuSmsDeliveryReports>
+    <CscFeature_Message_DisableMenuSmsInputMode>TRUE</CscFeature_Message_DisableMenuSmsInputMode>
+    <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
+    <CscFeature_Message_DisableSmscEditableOnlyFor>45002,45005</CscFeature_Message_DisableSmscEditableOnlyFor>
+    <CscFeature_Message_DisplaySmsTimeAs>server</CscFeature_Message_DisplaySmsTimeAs>
+    <CscFeature_Message_EnableHttpHeader4LGU>FALSE</CscFeature_Message_EnableHttpHeader4LGU>
+    <CscFeature_RIL_BlockCSIMimsi>TRUE</CscFeature_RIL_BlockCSIMimsi>
+    <CscFeature_RIL_CallCnapKcs6501>TRUE</CscFeature_RIL_CallCnapKcs6501>
+    <CscFeature_RIL_CallUssdKcs5601>TRUE</CscFeature_RIL_CallUssdKcs5601>
+    <CscFeature_RIL_CheckImsRegDuringE911>TRUE</CscFeature_RIL_CheckImsRegDuringE911>
+    <CscFeature_RIL_ConfigGlobalModuleType>LTE</CscFeature_RIL_ConfigGlobalModuleType>
+    <CscFeature_RIL_ConfigNetworkTypeCapability>KOO-KOO-GSM-KOR</CscFeature_RIL_ConfigNetworkTypeCapability>
+    <CscFeature_RIL_CurrentDataTechNotReset>TRUE</CscFeature_RIL_CurrentDataTechNotReset>
+    <CscFeature_RIL_DispRssiOneStepPerSec>TRUE</CscFeature_RIL_DispRssiOneStepPerSec>
+    <CscFeature_RIL_DisplayNetstatePsOnlyRegistation>TRUE</CscFeature_RIL_DisplayNetstatePsOnlyRegistation>
+    <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_NetworkInfoRat>TRUE</CscFeature_RIL_NetworkInfoRat>
+    <CscFeature_RIL_SetNetworkTypeWhenRadioOff>TRUE</CscFeature_RIL_SetNetworkTypeWhenRadioOff>
+    <CscFeature_RIL_SignalstrengthPolicy>0</CscFeature_RIL_SignalstrengthPolicy>
+    <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_SyncML_SwUpdateActionDuringRoaming>onlywifi,roaminginfo</CscFeature_SyncML_SwUpdateActionDuringRoaming>
+    <CscFeature_SystemUI_ConfigOpBranding5GIcon>5GAvailable</CscFeature_SystemUI_ConfigOpBranding5GIcon>
+    <CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>KOO</CscFeature_SystemUI_ConfigOpBrandingForIndicatorIcon>
+    <CscFeature_SystemUI_ConfigOpBrandingLTEWideBandIcon>NONE</CscFeature_SystemUI_ConfigOpBrandingLTEWideBandIcon>
+    <CscFeature_VoiceCall_ConfigOpStyleForRoaming>dataroamingwithoutnoti,dataroamstyleforKOR</CscFeature_VoiceCall_ConfigOpStyleForRoaming>
+    <CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>-kordataenabled,-korlteroaming,mobilenetworkstyleforKorOpen,+ltefallbackmode_default_true</CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>
+  </FeatureSet>
+</SamsungMobileFeature>

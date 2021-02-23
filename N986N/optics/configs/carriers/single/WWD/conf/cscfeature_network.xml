@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamsungMobileFeature>
+  <NetworkVersion>ED00001</NetworkVersion>
+  <NetworkCountry>KOREA, REPUBLIC OF</NetworkCountry>
+  <NetworkCountryISO>KR</NetworkCountryISO>
+  <NetworkCode>WWD</NetworkCode>
+  <FeatureSet>
+    <CscFeature_GPS_ConfigAgpsSetting>KOO</CscFeature_GPS_ConfigAgpsSetting>
+    <CscFeature_Message_DisableMenuCBMessage>TRUE</CscFeature_Message_DisableMenuCBMessage>
+    <CscFeature_Message_DisableMenuRequestMmsDeliveryReport>TRUE</CscFeature_Message_DisableMenuRequestMmsDeliveryReport>
+    <CscFeature_Message_DisableMenuRequestMmsReadReport>TRUE</CscFeature_Message_DisableMenuRequestMmsReadReport>
+    <CscFeature_Message_DisableMenuSmsDeliveryReports>TRUE</CscFeature_Message_DisableMenuSmsDeliveryReports>
+    <CscFeature_Message_DisableMenuSmsInputMode>TRUE</CscFeature_Message_DisableMenuSmsInputMode>
+    <CscFeature_Message_DisableSmscEditable>TRUE</CscFeature_Message_DisableSmscEditable>
+    <CscFeature_Message_DisableSmscEditableOnlyFor>45002,45005</CscFeature_Message_DisableSmscEditableOnlyFor>
+    <CscFeature_Message_DisplaySmsTimeAs>server</CscFeature_Message_DisplaySmsTimeAs>
+    <CscFeature_Message_EnableHttpHeader4LGU>FALSE</CscFeature_Message_EnableHttpHeader4LGU>
+    <CscFeature_RIL_BIPOTAApnName>ota.lguplus.co.kr</CscFeature_RIL_BIPOTAApnName>
+    <CscFeature_RIL_BIPOTAUsimRegistration>TRUE</CscFeature_RIL_BIPOTAUsimRegistration>
+    <CscFeature_RIL_BlockCSIMimsi>TRUE</CscFeature_RIL_BlockCSIMimsi>
+    <CscFeature_RIL_BlockPartialRetry>TRUE</CscFeature_RIL_BlockPartialRetry>
+    <CscFeature_RIL_CallCnapKcs6501>TRUE</CscFeature_RIL_CallCnapKcs6501>
+    <CscFeature_RIL_CallUssdKcs5601>TRUE</CscFeature_RIL_CallUssdKcs5601>
+    <CscFeature_RIL_CheckImsRegDuringE911>TRUE</CscFeature_RIL_CheckImsRegDuringE911>
+    <CscFeature_RIL_ConfigAlwaysOnApn>mms_home</CscFeature_RIL_ConfigAlwaysOnApn>
+    <CscFeature_RIL_ConfigApnForHideDataIcon>ims,mms,cbs,fota,foc</CscFeature_RIL_ConfigApnForHideDataIcon>
+    <CscFeature_RIL_ConfigGlobalModuleType>LTE</CscFeature_RIL_ConfigGlobalModuleType>
+    <CscFeature_RIL_ConfigNetworkTypeCapability>KOO-KOO-GSM-KOR</CscFeature_RIL_ConfigNetworkTypeCapability>
+    <CscFeature_RIL_ConfigSmsBroadcastType>KPAS</CscFeature_RIL_ConfigSmsBroadcastType>
+    <CscFeature_RIL_DisableSmsVoicemail>TRUE</CscFeature_RIL_DisableSmsVoicemail>
+    <CscFeature_RIL_DispRssiOneStepPerSec>TRUE</CscFeature_RIL_DispRssiOneStepPerSec>
+    <CscFeature_RIL_DisplayNetstatePsOnlyRegistation>TRUE</CscFeature_RIL_DisplayNetstatePsOnlyRegistation>
+    <CscFeature_RIL_E911RoutingPolicy>auto</CscFeature_RIL_E911RoutingPolicy>
+    <CscFeature_RIL_MtuSize>1500</CscFeature_RIL_MtuSize>
+    <CscFeature_RIL_NetworkInfoRat>TRUE</CscFeature_RIL_NetworkInfoRat>
+    <CscFeature_RIL_NotCountVoicemail>TRUE</CscFeature_RIL_NotCountVoicemail>
+    <CscFeature_RIL_PDPRetryMechanism4>KOO</CscFeature_RIL_PDPRetryMechanism4>
+    <CscFeature_RIL_PermanentFailuresStopRetry>TRUE</CscFeature_RIL_PermanentFailuresStopRetry>
+    <CscFeature_RIL_SetNetworkTypeWhenRadioOff>TRUE</CscFeature_RIL_SetNetworkTypeWhenRadioOff>
+    <CscFeature_RIL_ShowDataSelectPopupOnBootup>TRUE</CscFeature_RIL_ShowDataSelectPopupOnBootup>
+    <CscFeature_RIL_SignalstrengthPolicy>0</CscFeature_RIL_SignalstrengthPolicy>
+    <CscFeature_RIL_SmsAddressSeparator>TRUE</CscFeature_RIL_SmsAddressSeparator>
+    <CscFeature_RIL_SmsNotUsedStatusReportRequest>TRUE</CscFeature_RIL_SmsNotUsedStatusReportRequest>
+    <CscFeature_RIL_SmsNotUsedValidityPeriodFormat>TRUE</CscFeature_RIL_SmsNotUsedValidityPeriodFormat>
+    <CscFeature_RIL_SmsShowHiddenMenuSmsPrefmode>TRUE</CscFeature_RIL_SmsShowHiddenMenuSmsPrefmode>
+    <CscFeature_RIL_SmsSupportKsc5601>TRUE</CscFeature_RIL_SmsSupportKsc5601>
+    <CscFeature_RIL_SmsSupportReplyAddress>TRUE</CscFeature_RIL_SmsSupportReplyAddress>
+    <CscFeature_RIL_SupportCNAP>TRUE</CscFeature_RIL_SupportCNAP>
+    <CscFeature_RIL_SupportUsimMobility>TRUE</CscFeature_RIL_SupportUsimMobility>
+    <CscFeature_RIL_SupportVolte>TRUE</CscFeature_RIL_SupportVolte>
+    <CscFeature_RIL_USIMPersonalizationKOR>TRUE</CscFeature_RIL_USIMPersonalizationKOR>
+    <CscFeature_Setting_EnablePromptPopupWhenActivatingDataConnection>TRUE</CscFeature_Setting_EnablePromptPopupWhenActivatingDataConnection>
+    <CscFeature_SyncML_SwUpdateActionDuringRoaming>onlywifi,roaminginfo</CscFeature_SyncML_SwUpdateActionDuringRoaming>
+    <CscFeature_VoiceCall_ConfigOpStyleForRoaming>dataroamingwithoutnoti,dataroamstyleforKOR</CscFeature_VoiceCall_ConfigOpStyleForRoaming>
+    <CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>-kordataenabled,-korlteroaming,-kornetworkstatus,mobilenetworkstyleforKorOpen,+ltefallbackmode_default_true</CscFeature_VoiceCall_ConfigOpStyleMobileNetworkSettingMenu>
+  </FeatureSet>
+</SamsungMobileFeature>

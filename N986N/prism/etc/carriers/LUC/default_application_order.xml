@@ -1,0 +1,526 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+
+<appOrder>
+   
+    <!-- Samsung -->
+    <folder
+        screen="0"
+        title="Samsung" >
+   
+        <!-- Samsung Galaxy -->
+        <favorite
+            className="com.samsung.android.galaxy.MainActivity"
+            packageName="com.samsung.android.galaxy"
+            screen="0"
+        />
+   
+        <!-- Samsung Connect -->
+        <favorite
+            className="com.samsung.android.oneconnect.ui.SCMainActivity"
+            packageName="com.samsung.android.oneconnect"
+            screen="1"
+        />
+   
+        <!-- 음성 녹음 -->
+        <favorite
+            className="com.sec.android.app.voicenote.main.VNMainActivity"
+            packageName="com.sec.android.app.voicenote"
+            screen="2"
+        />
+   
+        <!-- 내 파일 -->
+        <favorite
+            className="com.sec.android.app.myfiles.external.ui.MainActivity"
+            packageName="com.sec.android.app.myfiles"
+            screen="3"
+        />
+   
+        <!-- 삼성 인터넷 -->
+        <favorite
+            className="com.sec.android.app.sbrowser.SBrowserMainActivity"
+            packageName="com.sec.android.app.sbrowser"
+            screen="4"
+        />
+   
+        <!-- Samsung Health -->
+        <favorite
+            className="com.samsung.android.app.shealth.home.HomeMainActivity"
+            packageName="com.sec.android.app.shealth"
+            screen="5"
+        />
+   
+        <!-- Galaxy Wearable -->
+        <favorite
+            className="com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity"
+            packageName="com.samsung.android.app.watchmanager"
+            screen="6"
+        />
+   
+        <!-- Samsung Members -->
+        <favorite
+            className="com.samsung.android.voc.LauncherActivity"
+            packageName="com.samsung.android.voc"
+            screen="7"
+        />
+   
+        <!-- PEN.UP -->
+        <favorite
+            className="com.sec.penup.ui.SplashActivity"
+            packageName="com.sec.penup"
+            screen="8"
+        />
+   
+        <!-- Bixby -->
+        <favorite
+            className="com.samsung.android.bixby.assistanthome.AssistantHomeLauncherActivity"
+            packageName="com.samsung.android.bixby.agent"
+            screen="9"
+        />
+   
+        <!-- AR Zone -->
+        <favorite
+            className="com.samsung.android.arzone.ARZoneLauncher"
+            packageName="com.samsung.android.arzone"
+            screen="10"
+        />
+		   
+        <!-- FM Radio -->
+        <favorite
+            className="com.sec.android.app.fm.MainActivity"
+            packageName="com.sec.android.app.fm"
+            screen="11"
+        />
+   
+    </folder>
+   
+    <!-- Google -->
+    <folder
+        screen="0"
+        title="Google" >
+   
+        <!-- Google -->
+        <favorite
+            className="com.google.android.googlequicksearchbox.SearchActivity"
+            packageName="com.google.android.googlequicksearchbox"
+            screen="0"
+        />
+   
+        <!-- Chrome -->
+        <favorite
+            className="com.google.android.apps.chrome.Main"
+            packageName="com.android.chrome"
+            screen="1"
+        />
+   
+        <!-- Gmail -->
+        <favorite
+            className="com.google.android.gm.ConversationListActivityGmail"
+            packageName="com.google.android.gm"
+            screen="2"
+        />
+   
+        <!-- 지도 -->
+        <favorite
+            className="com.google.android.maps.MapsActivity"
+            packageName="com.google.android.apps.maps"
+            screen="3"
+        />
+   
+        <!-- YouTube -->
+        <favorite
+            className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"
+            packageName="com.google.android.youtube"
+            screen="4"
+        />
+   
+        <!-- 드라이브 -->
+        <favorite
+            className="com.google.android.apps.docs.app.NewMainProxyActivity"
+            packageName="com.google.android.apps.docs"
+            screen="5"
+        />
+   
+        <!-- Google Play 무비 -->
+        <favorite
+            className="com.google.android.youtube.videos.EntryPoint"
+            packageName="com.google.android.videos"
+            screen="6"
+        />
+   
+        <!-- Duo -->
+        <favorite
+            className="com.google.android.apps.tachyon.MainActivity"
+            packageName="com.google.android.apps.tachyon"
+            screen="7"
+        />
+   
+        <!-- 포토 -->
+        <favorite
+            className="com.google.android.apps.photos.home.HomeActivity"
+            packageName="com.google.android.apps.photos"
+            screen="8"
+        />
+   
+    </folder>
+   
+    <!-- Microsoft -->
+    <folder
+        screen="0"
+        title="Microsoft" >
+   
+        <!-- Office Mobile -->
+        <favorite
+            className="com.microsoft.office.officesuite.OfficeSuiteActivity"
+            packageName="com.microsoft.office.officehubrow"
+            screen="0"
+        />
+   
+        <!-- OneDrive -->
+        <favorite
+            className="com.microsoft.skydrive.MainActivity"
+            packageName="com.microsoft.skydrive"
+            screen="1"
+        />
+   
+        <!-- Outlook -->
+        <favorite
+            className="com.microsoft.office.outlook.MainActivity"
+            packageName="com.microsoft.office.outlook"
+            screen="2"
+        />
+   
+    </folder>
+   
+    <!-- Google Play 스토어 -->
+    <favorite
+        className="com.android.vending.AssetBrowserActivity"
+        packageName="com.android.vending"
+        screen="0"
+    />
+   
+    <!-- 원스토어 -->
+    <favorite
+        className="com.lguplus.appstore.StoreMain"
+        packageName="com.lguplus.appstore"
+        screen="0"
+    />
+   
+    <!-- U+ 고객센터 -->
+    <favorite
+        className="com.lguplus.mobile.cs.activity.SplashActivity"
+        packageName="com.lguplus.mobile.cs"
+        screen="0"
+    />
+   
+    <!-- Samsung Pay -->
+    <favorite
+        className="com.samsung.android.spay.ui.SpayMainActivity"
+        packageName="com.samsung.android.spay"
+        screen="0"
+    />
+   
+    <!-- Galaxy Store -->
+    <favorite
+        className="com.sec.android.app.samsungapps.SamsungAppsMainActivity"
+        packageName="com.sec.android.app.samsungapps"
+        screen="0"
+    />
+   
+    <!-- 전화 -->
+    <favorite
+        className="com.samsung.android.dialer.DialtactsActivity"
+        packageName="com.samsung.android.dialer"
+        screen="0"
+    />
+   
+    <!-- 메시지 -->
+    <favorite
+        className="com.android.mms.ui.ConversationComposer"
+        packageName="com.samsung.android.messaging"
+        screen="0"
+    />
+   
+    <!-- 카메라 -->
+    <favorite
+        className="com.sec.android.app.camera.Camera"
+        packageName="com.sec.android.app.camera"
+        screen="0"
+    />
+   
+    <!-- 갤러리 -->
+    <favorite
+        className="com.samsung.android.gallery.app.activity.GalleryActivity"
+        packageName="com.sec.android.gallery3d"
+        screen="0"
+    />
+   
+    <!-- 시계 -->
+    <favorite
+        className="com.sec.android.app.clockpackage.ClockPackage"
+        packageName="com.sec.android.app.clockpackage"
+        screen="0"
+    />
+   
+    <!-- 연락처 -->
+    <favorite
+        className="com.samsung.android.contacts.contactslist.PeopleActivity"
+        packageName="com.samsung.android.app.contacts"
+        screen="0"
+    />
+   
+    <!-- 설정 -->
+    <favorite
+        className="com.android.settings.Settings"
+        packageName="com.android.settings"
+        screen="0"
+    />
+   
+    <!-- 캘린더 -->
+    <favorite
+        className="com.samsung.android.app.calendar.activity.MainActivity"
+        packageName="com.samsung.android.calendar"
+        screen="0"
+    />
+   
+    <!-- 계산기 -->
+    <favorite
+        className="com.sec.android.app.popupcalculator.Calculator"
+        packageName="com.sec.android.app.popupcalculator"
+        screen="0"
+    />
+   
+    <!-- Samsung Notes -->
+    <favorite
+        className="com.samsung.android.app.notes.memolist.MemoListActivity"
+        packageName="com.samsung.android.app.notes"
+        screen="0"
+    />
+   
+    <!-- YouTube music -->
+    <favorite
+        className="com.google.android.apps.youtube.music.activities.MusicActivity"
+        packageName="com.google.android.apps.youtube.music"
+        screen="0"
+    />
+   
+    <!-- Tips -->
+    <favorite
+        className="com.samsung.android.app.tips.TipsMainActivity"
+        packageName="com.samsung.android.app.tips"
+        screen="0"
+    />
+   
+    <!-- 게임런처 -->
+    <favorite
+        className="com.samsung.android.game.gamehome.activity.StartActivity"
+        packageName="com.samsung.android.game.gamehome"
+        screen="0"
+    />
+   
+    <!-- Global Goals -->
+    <favorite
+        className="com.samsung.sree.ui.MainActivity"
+        packageName="com.samsung.sree"
+        screen="0"
+    />
+   
+    <!-- LG U+ 폴더 -->
+    <folder
+        postPosition="true"
+        screen="0"
+        title="LG U+ 폴더" >
+        <!-- U+모바일tv -->
+        <favorite
+            className="com.uplus.onphone.activity.MainActivity"
+            packageName="com.uplus.onphone"
+            screen="0"
+        />
+        <!-- U+프로야구 -->
+        <favorite
+            className="com.uplus.baseballhdtv.activity.MainActivity_"
+            packageName="com.uplus.baseballhdtv"
+            screen="1"
+        />
+        <!-- U+  골프 -->
+        <favorite
+            className="com.uplus.ugolf.activity.MainActivity_"
+            packageName="com.uplus.ugolf"
+            screen="2"
+        />
+        <!-- U+아이돌 Live -->
+        <favorite
+            className="com.uplus.musicshow.SplashActivity"
+            packageName="com.uplus.musicshow"
+            screen="3"
+        />
+        <!-- U+AR -->
+        <favorite
+            className="co.kr.uplus.arent.activity.SplashActivity"
+            packageName="co.kr.uplus.arent"
+            screen="4"
+        />
+        <!-- U+AR -->
+        <favorite
+            className="co.kr.uplus.arent.ui.intro.SplashActivity"
+            packageName="co.kr.uplus.arent"
+            screen="5"
+        />
+        <!-- U+VR -->
+        <favorite
+            className="com.lguplus.vr5g.ui.activity.SplashActivity"
+            packageName="com.lguplus.vr5g"
+            screen="6"
+        />
+        <!-- 스마트홈트 -->
+        <favorite
+            className="com.kakaovx.homet.user.ui.splash.SplashActivity"
+            packageName="com.kakaovx.homet.user"
+            screen="7"
+        />
+        <!-- GeForceNow -->
+        <favorite
+            className="com.nvidia.tegrazone.MainActivity"
+            packageName="com.nvidia.geforcenow"
+            screen="8"
+        />
+        <!-- U+멤버스 -->
+        <favorite
+            className="com.uplus.membership.smart.ui.main.IntroActivity"
+            packageName="uplus.membership"
+            screen="9"
+        />
+        <!-- 카카오내비 -->
+        <favorite
+            className="com.locnall.KimGiSa.activity.IntroActivity"
+            packageName="com.lguplus.navi"
+            screen="10"
+        />
+        <!-- 추천 -->
+        <!-- PASS(U+인증) -->
+        <favorite
+            className="com.lguplus.smartotp.ui.IntroActivity"
+            packageName="com.lguplus.smartotp"
+            screen="11"
+        />
+        <!-- 후후-유플러스 -->
+        <favorite
+            className="com.whox2.lguplus.atv.main.AtvIntro"
+            packageName="com.whox2.lguplus"
+            screen="12"
+        />
+        <!-- 지니 뮤직 -->
+        <favorite
+            className="com.ktmusic.geniemusic.DummyActivity"
+            packageName="com.ktmusic.geniemusic"
+            screen="13"
+        />
+        <!-- IoT@home -->
+        <favorite
+            className="com.lguplus.homeiot.ui.intro.IntroSplash"
+            packageName="com.lguplus.homeiot"
+            screen="14"
+        />
+        <!-- 뮤직벨링 -->
+        <favorite
+            className="com.lgu.page.LoadingPage"
+            packageName="com.lgu"
+            screen="15"
+        />
+        <!-- U+데이터 충전소 -->
+        <favorite
+            className="com.uplus.datacharge.view.activity.StartActivity"
+            packageName="com.uplus.datacharge"
+            screen="16"
+        />
+        <!-- U+통화도우미 -->
+        <favorite
+            className="lgt.call.Main"
+            packageName="lgt.call"
+            screen="17"
+        />
+        <!-- U+AR 쇼핑 -->
+        <favorite
+            className="com.lguplus.artv.ui.intro.ATIntroActivity"
+            packageName="com.lguplus.artv"
+            screen="18"
+        />
+        <!-- U+아이들생생도서관 -->
+        <favorite 
+            screen="19" 
+            packageName="co.kr.uplus.arlibrary" 
+            className="com.inception.Bookful.DeeplinkActivityWithWebView"
+        />
+        <!-- U+아이들생생도서관 -->
+        <favorite 
+            screen="20" 
+            packageName="co.kr.uplus.arlibrary" 
+            className="co.kr.uplus.arlibrary.MainActivity"
+        />
+        <!-- U+아이들나라 -->
+        <favorite 
+            screen="21" 
+            packageName="com.lguplus.mobile.kids"
+            className="com.lguplus.mobile.kids.main.MainActivity"
+        />
+        <!-- nebula -->
+        <favorite 
+            screen="22" 
+            packageName="ai.nreal.nebula"
+            className="ai.nreal.nebula.MainActivity"
+        />
+        <!-- 맵피 -->
+        <favorite
+            className="com.mnsoft.offboardnavi.intro.MappyIntroActivity"
+            packageName="com.mnsoft.mappyobn"
+            screen="23"
+        />
+        <!-- 아프리카TV -->
+        <favorite
+            className="kr.co.nowcom.mobile.afreeca.IntroActivity"
+            packageName="kr.co.nowcom.mobile.afreeca"
+            screen="24"
+        />
+        <!-- 알약 -->
+        <favorite
+            className="com.estsoft.alyac.user_interface.SplashActivity"
+            packageName="com.estsoft.alyac"
+            screen="25"
+        />
+        <!-- END -->
+        <!-- U+게임방송 -->
+        <favorite
+            className="com.uplus.esports.ui.main.MainActivity"
+            packageName="com.uplus.esports"
+            screen="26"
+        />
+        <!-- U+Box(클라우드) -->
+        <favorite
+            className="lg.uplusbox.TitleActivity"
+            packageName="lg.uplusbox"
+            screen="27"
+        />
+        <!-- U+5G서비스 위젯 -->
+        <favorite
+            className="com.lguplus.fivewidget.cda6c5af65913b22e2a26771dc6a9073b"
+            packageName="com.lguplus.fivewidget"
+            screen="28"
+        />
+        <!--  -->
+        <favorite
+            className="com.lguplus.fivewidget.IntroActivity"
+            packageName="com.lguplus.fivewidget"
+            screen="29"
+        />
+   
+    </folder>
+   
+    <!-- Google -->
+    <favorite
+        className="com.google.android.googlequicksearchbox.VoiceSearchActivity"
+        hidden="true"
+        packageName="com.google.android.googlequicksearchbox"
+        screen="0"
+    />
+   
+</appOrder>
+   

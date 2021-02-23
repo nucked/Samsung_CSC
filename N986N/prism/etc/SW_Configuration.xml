@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SW-Configuration>
+    <MobileData>
+        <PublicName>SM-N986N</PublicName>
+    </MobileData>
+    <OmcYn>Y</OmcYn>
+    <MultiCode>OKR</MultiCode>
+    <CustomerDataSet>
+        <CSCName>N986NOKR</CSCName>
+        <CSCVersion>1CUB6</CSCVersion>
+        <NbCustomer>5</NbCustomer>
+        <CustomerData src="/Customer/SKC/customer.xml" />
+        <CustomerData src="/Customer/KTC/customer.xml" />
+        <CustomerData src="/Customer/LUC/customer.xml" />
+        <CustomerData src="/Customer/KOO/customer.xml" />
+        <CustomerData src="/Customer/WWD/customer.xml" />
+    </CustomerDataSet>
+    <OmcInfo>
+        <OmcCode>
+            <CustomerCode>KOO</CustomerCode>
+            <Version>SAOMC_SM-N986N_OKR_KOO_RR_0006</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>KTC</CustomerCode>
+            <Version>SAOMC_SM-N986N_OKR_KTC_RR_0006</Version>
+            <CustomerEdition>ED0003</CustomerEdition>
+            <Packages>
+                <package name="com.kt.streamgame" />
+                <package name="com.kt.giftbox.samsung" />
+                <package name="com.kt.otv" />
+                <package name="com.ktmusic.geniemusic" />
+                <package name="kt.navi" />
+                <package name="com.estsoft.alyac" />
+                <package name="com.ktcs.whowho" />
+                <package name="com.olleh.android.oc2" />
+                <package name="com.kbankwith.smartbank" />
+                <package name="com.kt.android.showtouch" />
+                <package name="com.kt.ydatabox" />
+                <package name="com.kt.ollehfamilybox" />
+                <package name="com.show.greenbill" />
+                <package name="com.ebay.kr.gmarket" />
+                <package name="com.olleh.webtoon" />
+                <package name="com.kt.airmap" />
+                <package name="com.mhows.giftishow" />
+                <package name="com.kth.kshop" />
+                <package name="com.kt.bellringolleh" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>LUC</CustomerCode>
+            <Version>SAOMC_SM-N986N_OKR_LUC_RR_0004</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="com.uplus.onphone" />
+                <package name="com.uplus.baseballhdtv" />
+                <package name="com.uplus.ugolf" />
+                <package name="com.uplus.musicshow" />
+                <package name="co.kr.uplus.arent" />
+                <package name="com.lguplus.vr5g" />
+                <package name="com.kakaovx.homet.user" />
+                <package name="com.nvidia.geforcenow" />
+                <package name="uplus.membership" />
+                <package name="com.lguplus.navi" />
+                <package name="com.lguplus.smartotp" />
+                <package name="com.whox2.lguplus" />
+                <package name="com.ktmusic.geniemusic" />
+                <package name="com.lguplus.homeiot" />
+                <package name="com.lgu" />
+                <package name="com.uplus.datacharge" />
+                <package name="lgt.call" />
+                <package name="com.lguplus.artv" />
+                <package name="co.kr.uplus.arlibrary" />
+                <package name="com.lguplus.mobile.kids" />
+                <package name="ai.nreal.nebula" />
+                <package name="com.mnsoft.mappyobn" />
+                <package name="kr.co.nowcom.mobile.afreeca" />
+                <package name="com.estsoft.alyac" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>SKC</CustomerCode>
+            <Version>SAOMC_SM-N986N_OKR_SKC_RR_0006</Version>
+            <CustomerEdition>ED0002</CustomerEdition>
+            <Packages>
+                <package name="kr.co.captv.pooqV2" />
+                <package name="skplanet.musicmate" />
+                <package name="com.skt.skaf.l001mtm091" />
+                <package name="com.elevenst" />
+                <package name="com.skt.massivear" />
+                <package name="com.skt.treal.jumpvrm" />
+                <package name="com.skt.prod.together" />
+                <package name="com.sktelecom.vcoloring" />
+                <package name="com.elevenst.skpay" />
+                <package name="com.skplanet.tmaptaxi.android.passenger" />
+                <package name="com.skt.smartbill" />
+                <package name="com.sktelecom.myinitial" />
+                <package name="com.sktelecom.tguard" />
+                <package name="com.skt.skaf.OA00026910" />
+                <package name="com.skmc.okcashbag.home_google" />
+                <package name="com.nate.android.portalmini" />
+                <package name="com.skt.aladdin" />
+                <package name="com.finnq.f1" />
+                <package name="Uxpp.UC" />
+                <package name="com.sktelecom.tauth" />
+            </Packages>
+        </OmcCode>
+        <OmcCode>
+            <CustomerCode>WWD</CustomerCode>
+            <Version>SAOMC_SM-N986N_OKR_WWD_QQ_0001</Version>
+            <CustomerEdition>ED0001</CustomerEdition>
+        </OmcCode>
+    </OmcInfo>
+</SW-Configuration>
